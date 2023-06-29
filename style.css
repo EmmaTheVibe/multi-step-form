@@ -513,9 +513,10 @@ button {
     .container {
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        height: unset;
         width: 100%;
         margin-top: 0;
+        margin-bottom: 0;
         background-color: hsl(206, 94%, 87%);
         padding-left: 0;
         border-radius: 0px;
@@ -528,7 +529,7 @@ button {
         align-items: baseline;
         width: 100%;
         margin-right: 0;
-        height: 30vh;
+        height: 10rem;
         padding-top: 0;
         border-radius: 0px;
         background-image: url(./images/bg-sidebar-mobile.svg);
@@ -549,14 +550,14 @@ button {
         position: relative;
         margin-bottom: 0;
         padding-top: 0;
-        height: 70%;
+        height: 27rem;
     }
     .step1, .step2, .step3, .step4, .step5 {
         background-color: #ffffff;
         border-radius: 12px;
         width: 90%;
         padding-top: 0;
-        margin-top: -7rem;
+        margin-top: -5rem;
         z-index: 1;
         position: unset;
         padding-bottom: 0;
@@ -570,9 +571,9 @@ button {
         padding: 2rem;
     }
     .taskbar {
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 3.5rem;
+        padding-left: 18px;
+        padding-right: 18px;
+        height: 3.8rem;
         background-color: #ffffff;
         position: absolute;
         bottom: 0;
@@ -583,7 +584,7 @@ button {
     }
     .next1 {
         position: absolute;
-        right: 10px;
+        right: 18px;
     }
     .planbox {
         flex-direction: column;

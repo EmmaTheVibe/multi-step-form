@@ -511,9 +511,6 @@ button {
 }
 
 @media screen and (max-width:650px){
-    .attribution {
-        display: none;
-    }
     .container {
         flex-direction: column;
         justify-content: center;
@@ -581,7 +578,6 @@ button {
         background-color: #ffffff;
         position: absolute;
         bottom: 0;
-        margin-bottom: 0;
         width: 100vw;
         left: 0;
         align-items: center;

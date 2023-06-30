@@ -46,6 +46,28 @@ form.addEventListener('submit', function(submit){
     form1.style.display = 'none'
     form2.style.display = 'unset'
 })
+// const setError = (element, message) => {
+//     const inputControl = element.parentElement
+//     const errorDisplay = document.querySelector('.error')
+//     errorDisplay.innerText = message
+//     inputControl.classList.add('error')
+//     inputControl.classList.remove('error')
+// }
+// const setSuccess = element => {
+//     const inputControl = element.parentElement
+//     const errorDisplay = document.querySelector('.error')
+//     errorDisplay.innerText = ''
+//     inputControl.classList.add('success')
+//     inputControl.classList.remove('error')
+// }
+// const validateInputs = () => {
+//     const nameValue = namee.value.trim()
+//     if(nameValue === ''){
+//         setError(username, 'Name is required')
+//     } else{
+//         setSuccess(username)
+//     }
+// }
 
 back2.addEventListener('click', function(){
     indicator2.classList.remove('on')

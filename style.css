@@ -165,6 +165,19 @@ input {
 input::placeholder {
     font-weight: 400;
 }
+#name:focus{
+    outline: 0;
+}
+.input-control.success input{
+    border-color: green;
+}
+.input-control.error input{
+    border-color: red;
+}
+.input-control .error {
+    border-color: red;
+    height: 13px;
+}
 
 .planbox {
     width: 100%;
@@ -511,6 +524,9 @@ button {
 }
 
 @media screen and (max-width:650px){
+    body {
+        background-color: #ffffff;
+    }
     .container {
         flex-direction: column;
         justify-content: center;
@@ -574,13 +590,23 @@ button {
     .taskbar {
         padding-left: 18px;
         padding-right: 18px;
-        height: 3.8rem;
+        /* height: 3.8rem; */
+        height: 8rem;
         background-color: #ffffff;
         position: absolute;
         bottom: 0;
         width: 100vw;
         left: 0;
-        align-items: center;
+        align-items: start;
+
+
+        /* remove the following */
+        /* justify-content: start; */
+        padding-top: 1rem;
+        margin-bottom: -15vh;
+    }
+    .attribution {
+        display: none;
     }
     .next1 {
         position: absolute;

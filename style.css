@@ -165,19 +165,6 @@ input {
 input::placeholder {
     font-weight: 400;
 }
-#name:focus{
-    outline: 0;
-}
-.input-control.success input{
-    border-color: green;
-}
-.input-control.error input{
-    border-color: red;
-}
-.input-control .error {
-    border-color: red;
-    height: 13px;
-}
 
 .planbox {
     width: 100%;
